@@ -6,10 +6,8 @@
 - OCI 서버 세팅 : 리눅스 환경에서의 개발 환경 구축
   - Java, Node.js, MySQL 설치 및, MySQL-Workbench 연결
   - SSH 원격 접속을 위해, 오라클 클라우드에 공개키를 등록, VSCode를 연결
-- Frontend : React 
+- Frontend : React
   - React 기본 개발 환경 구축
-- 
-
 
 ## DB 설계
 
@@ -51,6 +49,7 @@
 이렇게 4가지로 DB를 분리하였고 아래 사진과 같이 DB를 설정하였다.
 
 RDBMS 기준 관계도
+
 - users <-> events 1:n 관계
   - user는 여러개의 event를 만들 수 있다.
 - events <-> notifications 1:n 관계
@@ -60,4 +59,4 @@ RDBMS 기준 관계도
 
 - 위 정보를 토대로 생성한 DB는 아래와 같다.
 
-<img src="./DB.png" title="DB"/>
+![image](./src/DB.png)
