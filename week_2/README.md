@@ -1,4 +1,4 @@
-# 1주차 보고서
+# 2주차 보고서
 
 - Oracle Infrastructer Cloud 에서 개인 클라우드 서버를 생성하여 Linux 환경에서 개발을 진행하게 되었습니다.
 - 백엔드는 Java Spring Boot, 프론트엔드는 React, 데이터베이스는 MySQL을 사용하기로 결정하였으며, 이에 맞춰 DB 설계를 완료하였습니다.
